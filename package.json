@@ -7,7 +7,7 @@
     "react-native-schemes-manager": "index.js"
   },
   "scripts": {
-    "postinstall": "node index.js verify-config",
+    "postinstall": "node index.ios.js verify-config",
     "lint": "eslint .",
     "lint-fix": "eslint . --fix"
   },
